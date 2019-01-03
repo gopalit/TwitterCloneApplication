@@ -85,9 +85,7 @@ namespace TwitterClone.Controllers
                 if (Session["UserName"] != null)
                 {
                     string userId = Session["UserName"].ToString();
-
-
-
+                    
                     if (type == "follow")
                     {
                         var userList = personManager.GetFollowers(userId);
