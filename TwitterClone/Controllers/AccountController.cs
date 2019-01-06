@@ -17,6 +17,7 @@ namespace TwitterClone.Controllers
 
         public AccountController()
         {
+        
         }
 
         //
