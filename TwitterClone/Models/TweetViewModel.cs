@@ -19,7 +19,7 @@ namespace TwitterClone.Models
         public string UserId { get; set; }
         public string FollowingId { get; set; }
     }
-
+    //GIT checkin
     public class TweetViewModel
     {
         public Collection<TweetModel> Tweets { get; set; }
